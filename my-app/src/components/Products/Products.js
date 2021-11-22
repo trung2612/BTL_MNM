@@ -22,7 +22,7 @@ const Products = () => {
                 <div class="row grid">
                     <div class="col-lg-4 col-md-4 all des">
                       <div class="product-item">
-                        <a href="#"><img src="assets/images/product_01.jpg" alt=""/></a>
+                        <img src="assets/images/product_01.jpg" alt=""/>
                         <div class="down-content">
                           <a href="#"><h4>Tittle goes here</h4></a>
                           <h6>$18.25</h6>
