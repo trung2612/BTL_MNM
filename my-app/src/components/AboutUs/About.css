@@ -145,10 +145,11 @@
 
 
 
+
 /* Services */
 
 .services {
-	background-image: url('');
+	background-image: url("");
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -194,6 +195,7 @@
 
 
 
+
 /* Clients */
 
 .happy-clients {
@@ -212,3 +214,8 @@
 	opacity: 0.8;
 }
 
+
+
+.col-md-44{
+	width: 25%;
+}
