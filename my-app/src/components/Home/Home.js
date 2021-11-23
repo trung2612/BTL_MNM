@@ -15,7 +15,7 @@ const Home = () => {
           </div>
           <div class="col-md-4">
             <div class="product-item">
-              <a href="#"><img src="assets/images/product_01.jpg" alt=""/></a>
+              <a href="#"><img src="https://www.aboutboot.com/wp-content/uploads/2018/05/How-to-Remove-Tar-from-Shoes.jpg" alt=""/></a>
               <div class="down-content">
                 <a href="#"><h4>Tittle goes here</h4></a>
                 <h6>$25.75</h6>
@@ -33,7 +33,7 @@ const Home = () => {
           </div>
           <div class="col-md-4">
             <div class="product-item">
-              <a href="#"><img src="assets/images/product_02.jpg" alt=""/></a>
+              <a href="#"><img src="https://www.aboutboot.com/wp-content/uploads/2018/05/How-to-Remove-Tar-from-Shoes.jpg" alt=""/></a>
               <div class="down-content">
                 <a href="#"><h4>Tittle goes here</h4></a>
                 <h6>$30.25</h6>
@@ -51,7 +51,7 @@ const Home = () => {
           </div>
           <div class="col-md-4">
             <div class="product-item">
-              <a href="#"><img src="assets/images/product_03.jpg" alt=""/></a>
+              <a href="#"><img src="https://www.aboutboot.com/wp-content/uploads/2018/05/How-to-Remove-Tar-from-Shoes.jpg" alt=""/></a>
               <div class="down-content">
                 <a href="#"><h4>Tittle goes here</h4></a>
                 <h6>$20.45</h6>
@@ -69,7 +69,7 @@ const Home = () => {
           </div>
           <div class="col-md-4">
             <div class="product-item">
-              <a href="#"><img src="assets/images/product_04.jpg" alt=""/></a>
+              <a href="#"><img src="https://www.aboutboot.com/wp-content/uploads/2018/05/How-to-Remove-Tar-from-Shoes.jpg" alt=""/></a>
               <div class="down-content">
                 <a href="#"><h4>Tittle goes here</h4></a>
                 <h6>$15.25</h6>
@@ -87,7 +87,7 @@ const Home = () => {
           </div>
           <div class="col-md-4">
             <div class="product-item">
-              <a href="#"><img src="assets/images/product_05.jpg" alt=""/></a>
+              <a href="#"><img src="https://www.aboutboot.com/wp-content/uploads/2018/05/How-to-Remove-Tar-from-Shoes.jpg" alt=""/></a>
               <div class="down-content">
                 <a href="#"><h4>Tittle goes here</h4></a>
                 <h6>$12.50</h6>
@@ -105,7 +105,7 @@ const Home = () => {
           </div>
           <div class="col-md-4">
             <div class="product-item">
-              <a href="#"><img src="assets/images/product_06.jpg" alt=""/></a>
+              <a href="#"><img src="https://www.aboutboot.com/wp-content/uploads/2018/05/How-to-Remove-Tar-from-Shoes.jpg" alt=""/></a>
               <div class="down-content">
                 <a href="#"><h4>Tittle goes here</h4></a>
                 <h6>$22.50</h6>
@@ -149,7 +149,7 @@ const Home = () => {
           </div>
           <div class="col-md-6">
             <div class="right-image">
-              <img src="assets/images/feature-image.jpg" alt=""/>
+              <img src="https://www.aboutboot.com/wp-content/uploads/2018/05/How-to-Remove-Tar-from-Shoes.jpg" alt=""/>
             </div>
           </div>
         </div>
