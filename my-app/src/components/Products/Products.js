@@ -17,6 +17,7 @@ const Products = () => {
               </ul>
             </div>
           </div>
+<<<<<<< HEAD
           <div className="col-md-12">
             <div className="filters-content">
                 <div className="row grid">
@@ -25,6 +26,16 @@ const Products = () => {
                         <div ><img src="https://www.aboutboot.com/wp-content/uploads/2018/05/How-to-Remove-Tar-from-Shoes.jpg" alt=""/></div>
                         <div className="down-content">
                           <div href="#"><h4>Tittle goes here</h4></div>
+=======
+          <div class="col-md-12">
+            <div class="filters-content">
+                <div class="row grid">
+                    <div class="col-lg-4 col-md-4 all des">
+                      <div class="product-item">
+                        <img src="assets/images/product_01.jpg" alt=""/>
+                        <div class="down-content">
+                          <a href="#"><h4>Tittle goes here</h4></a>
+>>>>>>> 722f7de67fd019794ece43d7983c06141fe539c9
                           <h6>$18.25</h6>
                           <p>Lorem ipsume dolor sit amet, adipisicing elite. Itaque, corporis nulla aspernatur.</p>
                           <ul className="stars">
