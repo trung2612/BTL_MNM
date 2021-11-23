@@ -37,18 +37,11 @@ function App() {
   }
   return (
     <>
-<<<<<<< HEAD
-    <Navbar/>
-    <Home/>
-    <About/>  
-    <Products/>
-=======
     <Navbar onHome={homeHandler} onProduct={productHandler} onContact={contactHandler} onAbout={aboutHandler}/>
     {isHome && <Home/>}
     {isProduct && <Product/>}
     {isContact && <Contact/>}
     {isAbout && <About/>}
->>>>>>> 722f7de67fd019794ece43d7983c06141fe539c9
     </>
   );
 }
