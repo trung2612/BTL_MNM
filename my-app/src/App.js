@@ -5,7 +5,7 @@ import Product from "./components/Products/Products";
 import Contact from "./components/Contact/Contact";
 import About from "./components/AboutUs/About";
 import ContentLayout from "./components/layouts/ContentLayout/ContentLayout";
-import Banner from "./components/Banner/Banner";
+import Banner from "./components/molecules/Banner/Banner";
 import { useState } from "react";
 
 function App() {
@@ -45,6 +45,7 @@ function App() {
         onContact={contactHandler}
         onAbout={aboutHandler}
       />
+      <Banner/>
       {isHome && <Home />}
       {isProduct && <Product />}
       {isContact && <Contact />}

@@ -7,6 +7,7 @@
 .productItem img{
     height: 200px;
     object-fit: cover;
+    cursor: pointer;
 }
 
 .downContent{
@@ -18,6 +19,7 @@
     font-size: 17px;
     color: #1a6692;
     margin-bottom: 20px;
+    cursor: pointer;
 }
 
 .downContent h6{
@@ -52,4 +54,5 @@
     font-size: 13px;
     color: #f33f3f;
     font-weight: 500;
+    cursor: pointer;
 }
