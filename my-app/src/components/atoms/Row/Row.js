@@ -1,7 +1,8 @@
 import styles from "./Row.module.css";
 
 const Row = (props) => {
-    return <div className={styles.row}>{props.children}</div>
+    const classes = styles.row + " " + props.className;
+    return <div className={classes}>{props.children}</div>
 };
 
 export default Row;

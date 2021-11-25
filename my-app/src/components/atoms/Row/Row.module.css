@@ -1,7 +1,5 @@
 .row {
-    padding: 0 15px;
     display: flex;
-    justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
   }

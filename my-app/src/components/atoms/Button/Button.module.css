@@ -8,6 +8,7 @@
     border-radius: 5px;
     display: inline-block;
     transition: all 0.3s;
+    border: none;
 }
 
 .button:hover,
