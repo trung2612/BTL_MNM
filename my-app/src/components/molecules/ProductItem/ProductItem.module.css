@@ -2,13 +2,12 @@
     border: 1px solid #eee;
     margin-bottom: 30px;
     position: relative;
+    overflow: hidden;
 }
 
-.productItem .img img {
+.productItem img {
     height: 200px;
     object-fit: cover;
-    cursor: pointer;
-    width: 100%;
 }
 
 .img {
@@ -21,11 +20,14 @@
     position: relative;
 }
 
+.downContent a {
+    text-decoration: none;
+}
+
 .downContent h4 {
     font-size: 17px;
     color: #1a6692;
     margin-bottom: 20px;
-    cursor: pointer;
 }
 
 .downContent h6 {
@@ -60,5 +62,4 @@
     font-size: 13px;
     color: #f33f3f;
     font-weight: 500;
-    cursor: pointer;
 }
