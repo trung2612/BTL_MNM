@@ -1,0 +1,7 @@
+.halfCard{
+    flex-grow: 1;
+    max-width: 100%;
+    width: 120px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
