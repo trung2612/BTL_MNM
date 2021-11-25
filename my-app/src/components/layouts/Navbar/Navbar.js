@@ -32,7 +32,7 @@ const NavbarComponent = (props) => {
                 </li>
                 <li className="nav-item">
                   <span className="nav-link" onClick={props.onProduct}>
-                    Our Products
+                    Sản Phẩm
                   </span>
                 </li>
                 <li className="nav-item">

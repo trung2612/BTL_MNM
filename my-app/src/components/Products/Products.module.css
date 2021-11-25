@@ -1,53 +1,48 @@
-/* .products-heading {
-    background: url("../images/products-heading.jpg");
-}
-
-.about-heading {
-    background: url(".../images/about-heading.jpg");
-}
-
-.contact-heading {
-    background: url(".../images/contact-heading.jpg");
-} */
-
-.products {
-    margin-top: 100px;
-}
-
-.products .filters {
-    text-align: center;
+.filters {
     border-bottom: 1px solid #eee;
     padding-bottom: 10px;
     margin-bottom: 60px;
+    margin-top: 60px;
 }
 
-.products .filters li {
+.ul {
+    display: flex;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.ul li {
     text-transform: uppercase;
-    font-size: 13px;
-    font-weight: 700;
+    font-size: 15px;
+    font-weight: 800;
     color: #121212;
     display: inline-block;
     margin: 0px 10px;
     transition: all .3s;
     cursor: pointer;
+    line-height: 40px;
 }
 
-.products .filters ul li.active,
-.products .filters ul li:hover {
+.filters ul li.active,
+.filters ul li:hover {
     color: #f33f3f;
 }
 
-.products ul.pages {
+.pages {
     margin-top: 30px;
     text-align: center;
 }
 
-.products ul.pages li {
+.pages li {
     display: inline-block;
     margin: 0px 2px;
 }
 
-.products ul.pages li a {
+.pages li div {
     width: 44px;
     height: 44px;
     display: inline-block;
@@ -59,8 +54,8 @@
     transition: all .3s;
 }
 
-.products ul.pages li a:hover,
-.products ul.pages li.active a {
+.pages li div:hover,
+.pages li.active a {
     background-color: #f33f3f;
     border-color: #f33f3f;
     color: #fff;
@@ -166,4 +161,18 @@
     100% {
         opacity: 0;
     }
+}
+
+.navigate {
+    display: flex;
+    flex: 0 0 100%;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    width: 44px;
+    height: 44px;
+    display: block;
 }

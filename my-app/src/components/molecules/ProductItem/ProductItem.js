@@ -6,7 +6,7 @@ import { faStar } from "@fortawesome/free-solid-svg-icons";
 const ProductItem = (props) => {
   return (
     <div className={style.productItem}>
-      <img src={props.src} alt="" />
+      <div className={style.img} ><img src={props.src} alt="" /></div>
       <div className={style.downContent}>
         <h4>{props.title}</h4>
         <h6>{props.price}</h6>
