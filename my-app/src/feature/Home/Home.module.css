@@ -43,6 +43,7 @@
   transition: all 0.3s;
   position: relative;
   padding-left: 13px;
+  cursor: pointer;
 }
 
 .leftContent ul li:before {
