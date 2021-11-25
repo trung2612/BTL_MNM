@@ -19,7 +19,7 @@ const Home = () => {
             <SectionTitle title="Latest Products" span="view all products>" />
             <Col className={commonStyle.col4}>
               <ProductItem
-                src="https://www.aboutboot.com/wp-content/uploads/2018/05/How-to-Remove-Tar-from-Shoes.jpg"
+                src="https://img5.thuthuatphanmem.vn/uploads/2021/08/25/hinh-nen-may-tinh-4k-sa-mac_084707368.jpg"
                 title="Tittle goes here"
                 price="$30.25"
                 content="Lorem ipsume dolor sit amet, adipisicing elite. Itaque, corporis nulla aspernatur."
@@ -27,7 +27,7 @@ const Home = () => {
             </Col>
             <Col className={commonStyle.col4}>
               <ProductItem
-                src="https://www.aboutboot.com/wp-content/uploads/2018/05/How-to-Remove-Tar-from-Shoes.jpg"
+                src="https://img.thuthuatphanmem.vn/uploads/2018/09/27/wallpaper-4k_105912678.jpg"
                 title="Tittle goes here"
                 price="$30.25"
                 content="Lorem ipsume dolor sit amet, adipisicing elite. Itaque, corporis nulla aspernatur."
@@ -35,7 +35,7 @@ const Home = () => {
             </Col>
             <Col className={commonStyle.col4}>
               <ProductItem
-                src="https://www.aboutboot.com/wp-content/uploads/2018/05/How-to-Remove-Tar-from-Shoes.jpg"
+                src="https://img5.thuthuatphanmem.vn/uploads/2021/08/25/hinh-nen-may-tinh-windows-4k_084711105.jpg"
                 title="Tittle goes here"
                 price="$30.25"
                 content="Lorem ipsume dolor sit amet, adipisicing elite. Itaque, corporis nulla aspernatur."
@@ -43,7 +43,7 @@ const Home = () => {
             </Col>
             <Col className={commonStyle.col4}>
               <ProductItem
-                src="https://www.aboutboot.com/wp-content/uploads/2018/05/How-to-Remove-Tar-from-Shoes.jpg"
+                src="https://www.anphatpc.com.vn/media/news/0812_wp4676574-4k-pc-wallpapers.jpg"
                 title="Tittle goes here"
                 price="$30.25"
                 content="Lorem ipsume dolor sit amet, adipisicing elite. Itaque, corporis nulla aspernatur."
@@ -51,7 +51,7 @@ const Home = () => {
             </Col>
             <Col className={commonStyle.col4}>
               <ProductItem
-                src="https://www.aboutboot.com/wp-content/uploads/2018/05/How-to-Remove-Tar-from-Shoes.jpg"
+                src="https://bloghay.vn/wp-content/uploads/2021/10/Wallpaper-4k-Hi%CC%80nh-ne%CC%82%CC%80n-4k-hi%CC%80nh-a%CC%89nh-ve%CC%82%CC%80-vu%CC%83-tru%CC%A3-cu%CC%9B%CC%A3c-de%CC%A3p-scaled.jpg"
                 title="Tittle goes here"
                 price="$30.25"
                 content="Lorem ipsume dolor sit amet, adipisicing elite. Itaque, corporis nulla aspernatur."
@@ -59,7 +59,7 @@ const Home = () => {
             </Col>
             <Col className={commonStyle.col4}>
               <ProductItem
-                src="https://www.aboutboot.com/wp-content/uploads/2018/05/How-to-Remove-Tar-from-Shoes.jpg"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuA8ZKd_4Up28DdrKzjJdScVOuogUfAfb49A&usqp=CAU"
                 title="Tittle goes here"
                 price="$30.25"
                 content="Lorem ipsume dolor sit amet, adipisicing elite. Itaque, corporis nulla aspernatur."
@@ -94,7 +94,7 @@ const Home = () => {
             </Col>
             <Col className={commonStyle.col6}>
               <Img className={styles.bestFeaturesImg}
-                src="https://www.aboutboot.com/wp-content/uploads/2018/05/How-to-Remove-Tar-from-Shoes.jpg"
+                src="https://anhdepfree.com/wp-content/uploads/2018/08/bo-hinh-nen-may-tinh-4k-cuc-dep-20.jpg"
                 alt="abc"
               />
             </Col>
