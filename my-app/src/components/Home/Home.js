@@ -5,7 +5,11 @@ import Row from "../atoms/Row/Row";
 import Container from "../atoms/Container/Container";
 import SectionTitle from "../molecules/SectionTitle/SectionTitle";
 import HalfCard from "../layouts/HalfCard/HalfCard";
+import Col from "../atoms/Col/Col";
 import Img from "../atoms/Img/Img";
+import Link from "../atoms/Link/Link";
+import Button from "../atoms/Button/Button";
+import commonStyle from "../../styles/commonStyle.module.css";
 
 const Home = () => {
   return (
@@ -14,106 +18,87 @@ const Home = () => {
         <Container>
           <Row>
             <SectionTitle title="Latest Products" span="view all products>" />
-            <div className={styles.item}>
+            <Col className={commonStyle.col4}>
               <ProductItem
                 src="https://www.aboutboot.com/wp-content/uploads/2018/05/How-to-Remove-Tar-from-Shoes.jpg"
                 title="Tittle goes here"
                 price="$30.25"
                 content="Lorem ipsume dolor sit amet, adipisicing elite. Itaque, corporis nulla aspernatur."
               />
-            </div>
-            <div className={styles.item}>
+            </Col>
+            <Col className={commonStyle.col4}>
               <ProductItem
                 src="https://www.aboutboot.com/wp-content/uploads/2018/05/How-to-Remove-Tar-from-Shoes.jpg"
                 title="Tittle goes here"
                 price="$30.25"
                 content="Lorem ipsume dolor sit amet, adipisicing elite. Itaque, corporis nulla aspernatur."
               />
-            </div>
-            <div className={styles.item}>
+            </Col>
+            <Col className={commonStyle.col4}>
               <ProductItem
                 src="https://www.aboutboot.com/wp-content/uploads/2018/05/How-to-Remove-Tar-from-Shoes.jpg"
                 title="Tittle goes here"
                 price="$30.25"
                 content="Lorem ipsume dolor sit amet, adipisicing elite. Itaque, corporis nulla aspernatur."
               />
-            </div>
-            <div className={styles.item}>
+            </Col>
+            <Col className={commonStyle.col4}>
               <ProductItem
                 src="https://www.aboutboot.com/wp-content/uploads/2018/05/How-to-Remove-Tar-from-Shoes.jpg"
                 title="Tittle goes here"
                 price="$30.25"
                 content="Lorem ipsume dolor sit amet, adipisicing elite. Itaque, corporis nulla aspernatur."
               />
-            </div>
-            <div className={styles.item}>
+            </Col>
+            <Col className={commonStyle.col4}>
               <ProductItem
                 src="https://www.aboutboot.com/wp-content/uploads/2018/05/How-to-Remove-Tar-from-Shoes.jpg"
                 title="Tittle goes here"
                 price="$30.25"
                 content="Lorem ipsume dolor sit amet, adipisicing elite. Itaque, corporis nulla aspernatur."
               />
-            </div>
-            <div className={styles.item}>
+            </Col>
+            <Col className={commonStyle.col4}>
               <ProductItem
                 src="https://www.aboutboot.com/wp-content/uploads/2018/05/How-to-Remove-Tar-from-Shoes.jpg"
                 title="Tittle goes here"
                 price="$30.25"
                 content="Lorem ipsume dolor sit amet, adipisicing elite. Itaque, corporis nulla aspernatur."
               />
-            </div>
+            </Col>
           </Row>
         </Container>
       </div>
 
       <div classNameName={styles.bestFeatures}>
         <Container>
-          <Row>
-          <SectionTitle title="About Sixteen Clothing" />
-            <HalfCard>
-              <div className="leftContent">
+          <Row className={styles.pd60}>
+            <SectionTitle title="About Sixteen Clothing" />
+            <Col className={commonStyle.col6}>
+              <div className={styles.leftContent}>
                 <h4>Looking for the best products?</h4>
-                <p>
-                  <a
-                    rel="nofollow"
-                    href="https://templatemo.com/tm-546-sixteen-clothing"
-                    target="_parent"
-                  >
-                    This template
-                  </a>{" "}
-                  is free to use for your business websites. However, you have
-                  no permission to redistribute the downloadable ZIP file on any
-                  template collection website.{" "}
-                  <a rel="nofollow" href="https://templatemo.com/contact">
-                    Contact us
-                  </a>{" "}
-                  for more info.
+                <p className={commonStyle.p}>
+                  <Link>This template</Link> is free to use for your business
+                  websites. However, you have no permission to redistribute the
+                  downloadable ZIP file on any template collection website.{" "}
+                  <Link>Contact us</Link> for more info.
                 </p>
-                <ul className="featured-list">
-                  <li>
-                    <a href="#">Lorem ipsum dolor sit amet</a>
-                  </li>
-                  <li>
-                    <a href="#">Consectetur an adipisicing elit</a>
-                  </li>
-                  <li>
-                    <a href="#">It aquecorporis nulla aspernatur</a>
-                  </li>
-                  <li>
-                    <a href="#">Corporis, omnis doloremque</a>
-                  </li>
-                  <li>
-                    <a href="#">Non cum id reprehenderit</a>
-                  </li>
+                <ul className={commonStyle.ul}>
+                  <li>Lorem ipsum dolor sit amet</li>
+                  <li>Consectetur an adipisicing elit</li>
+                  <li>It aquecorporis nulla aspernatur</li>
+                  <li>Corporis, omnis doloremque</li>
+                  <li>Non cum id reprehenderit</li>
                 </ul>
-                <a href="about.html" className="filled-button">
-                  Read More
-                </a>
+                <Button className={styles.filledButton}>Read More</Button>
               </div>
-            </HalfCard>
-            <HalfCard>
-              <Img src="https://www.aboutboot.com/wp-content/uploads/2018/05/How-to-Remove-Tar-from-Shoes.jpg" alt="abc"/>
-            </HalfCard>
+            </Col>
+            <Col className={commonStyle.col6}>
+              <Img
+                src="https://www.aboutboot.com/wp-content/uploads/2018/05/How-to-Remove-Tar-from-Shoes.jpg"
+                alt="abc"
+              />
+            </Col>
           </Row>
         </Container>
       </div>
@@ -121,26 +106,24 @@ const Home = () => {
       <div className="call-to-action">
         <Container>
           <Row>
-            <div className="col-md-12">
-              <div className="inner-content">
-                <div className="row">
-                  <div className="col-md-8">
+            <Col className={commonStyle.col12}>
+              <div className={styles.innerContent}>
+                <Row>
+                  <Col className={commonStyle.col8}>
                     <h4>
                       Creative &amp; Unique <em>Sixteen</em> Products
                     </h4>
-                    <p>
+                    <p className={commonStyle.p}>
                       Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                       Itaque corporis amet elite author nulla.
                     </p>
-                  </div>
-                  <div className={styles.item}>
-                    <a href="#" className="filled-button">
-                      Purchase Now
-                    </a>
-                  </div>
-                </div>
+                  </Col>
+                  <Col className={commonStyle.textRight + " " + commonStyle.col4}>
+                    <Button>Purchase Now</Button>
+                  </Col>
+                </Row>
               </div>
-            </div>
+            </Col>
           </Row>
         </Container>
       </div>
