@@ -31,17 +31,17 @@ const NavbarComponent = (props) => {
                   </span>
                 </li>
                 <li className="nav-item">
-                  <span className="nav-link" href="#" onClick={props.onProduct}>
+                  <span className="nav-link" onClick={props.onProduct}>
                     Our Products
                   </span>
                 </li>
                 <li className="nav-item">
-                  <span className="nav-link" href="#" onClick={props.onAbout}>
+                  <span className="nav-link" onClick={props.onAbout}>
                     About Us
                   </span>
                 </li>
                 <li className="nav-item">
-                  <span className="nav-link" href="#" onClick={props.onContact}>
+                  <span className="nav-link" onClick={props.onContact}>
                     Contact Us
                   </span>
                 </li>
