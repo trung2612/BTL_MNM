@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import styles from "./Home.module.css";
 import ProductItem from "../../components/molecules/ProductItem/ProductItem";
 import Row from "../../components/atoms/Row/Row";
@@ -6,7 +7,6 @@ import Container from "../../components/atoms/Container/Container";
 import SectionTitle from "../../components/molecules/SectionTitle/SectionTitle";
 import Col from "../../components/atoms/Col/Col";
 import Img from "../../components/atoms/Img/Img";
-import Link from "../../components/atoms/Link/Link";
 import Button from "../../components/atoms/Button/Button";
 import commonStyle from "../../styles/commonStyle.module.css";
 
@@ -16,7 +16,7 @@ const Home = () => {
       <div className={styles.latestProducts}>
         <Container>
           <Row>
-            <SectionTitle title="Latest Products" span="view all products>" />
+            <SectionTitle title="Latest Products" right="view all products >" />
             <Col className={commonStyle.col4}>
               <ProductItem
                 src="https://img5.thuthuatphanmem.vn/uploads/2021/08/25/hinh-nen-may-tinh-4k-sa-mac_084707368.jpg"
@@ -69,7 +69,7 @@ const Home = () => {
         </Container>
       </div>
 
-      <div classNameName={styles.bestFeatures}>
+      <div className={styles.bestFeatures}>
         <Container>
           <Row className={styles.pd60}>
             <SectionTitle title="About Sixteen Clothing" />
@@ -77,10 +77,10 @@ const Home = () => {
               <div className={styles.leftContent}>
                 <h4>Looking for the best products?</h4>
                 <p className={commonStyle.p}>
-                  <Link>This template</Link> is free to use for your business
+                  <Link to="/">This template</Link> is free to use for your business
                   websites. However, you have no permission to redistribute the
                   downloadable ZIP file on any template collection website.{" "}
-                  <Link>Contact us</Link> for more info.
+                  <Link to="/Contact">Contact us</Link> for more info.
                 </p>
                 <ul className={commonStyle.ul}>
                   <li>Lorem ipsum dolor sit amet</li>

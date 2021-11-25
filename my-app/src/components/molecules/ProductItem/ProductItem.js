@@ -1,14 +1,19 @@
 import React from "react";
-import style from "./ProductItem.module.css";
+import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar } from "@fortawesome/free-solid-svg-icons";
+
+import style from "./ProductItem.module.css";
+
 
 const ProductItem = (props) => {
   return (
     <div className={style.productItem}>
+      <Link to="/">
       <img src={props.src} alt="" />
+      </Link>
       <div className={style.downContent}>
-        <h4>{props.title}</h4>
+        <Link to="/"><h4>{props.title}</h4></Link>
         <h6>{props.price}</h6>
         <p>{props.content}</p>
 
@@ -29,7 +34,7 @@ const ProductItem = (props) => {
             <FontAwesomeIcon icon={faStar} color="#f33f3f"/>
           </li>
         </ul>
-        <span className={style.review}>Review(24)</span>
+        <Link to="/" className={style.review}>Review(24)</Link>
       </div>
     </div>
   );

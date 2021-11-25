@@ -16,6 +16,10 @@
   margin-top: 50px;
 }
 
+.bestFeatures a{
+  text-decoration: none;
+}
+
 .bestFeaturesImg img {
   height: 300px;
   object-fit: cover;

@@ -3,3 +3,7 @@
     margin-top: 60px;
     padding: 60px 0px;
 }
+
+.innerContent a{
+    text-decoration: none;
+}

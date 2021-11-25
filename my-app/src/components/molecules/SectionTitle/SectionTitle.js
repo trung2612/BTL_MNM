@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import styles from "./SectionTitle.module.css";
 import Col from "../../atoms/Col/Col";
 import commonStyle from "../../../styles/commonStyle.module.css";
@@ -8,7 +9,7 @@ const SectionTitle = (props) => {
       <div className={styles.sectionTitle}>
         <div className={styles.heading}>
           <h2>{props.title}</h2>
-          <span>{props.right}</span>
+          <Link to="/">{props.right}</Link>
         </div>
       </div>
     </Col>
