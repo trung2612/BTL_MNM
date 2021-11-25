@@ -1,0 +1,37 @@
+/* Display */
+.dNone {
+  display: none !important;
+}
+.dFlex {
+  display: flex !important;
+}
+.dInlineFlex {
+  display: inline-flex !important;
+}
+
+.noShrink {
+  flex-shrink: 0;
+}
+/* Body */
+body {
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+p {
+  margin-bottom: 0px;
+  font-size: 14px;
+  font-weight: 300;
+  color: #4a4a4a;
+  line-height: 24px;
+}
+a {
+  text-decoration: none !important;
+}
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
