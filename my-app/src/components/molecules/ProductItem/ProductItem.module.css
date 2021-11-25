@@ -1,31 +1,36 @@
-.productItem{
+.productItem {
     border: 1px solid #eee;
     margin-bottom: 30px;
     position: relative;
     overflow: hidden;
 }
 
-.productItem img{
+.productItem img {
     height: 200px;
     object-fit: cover;
 }
 
-.downContent{
+.img {
+    display: block;
+    width: 100%;
+}
+
+.downContent {
     padding: 30px;
     position: relative;
 }
 
-.downContent a{
+.downContent a {
     text-decoration: none;
 }
 
-.downContent h4{
+.downContent h4 {
     font-size: 17px;
     color: #1a6692;
     margin-bottom: 20px;
 }
 
-.downContent h6{
+.downContent h6 {
     position: absolute;
     top: 30px;
     right: 30px;
@@ -33,7 +38,7 @@
     color: #121212;
 }
 
-.downContent p{
+.downContent p {
     font-size: 14px;
     font-weight: 300;
     color: #4a4a4a;
@@ -50,7 +55,7 @@
     display: inline-block;
 }
 
-.review{
+.review {
     position: absolute;
     right: 30px;
     bottom: 30px;
