@@ -16,6 +16,11 @@
   margin-top: 50px;
 }
 
+.bestFeaturesImg img {
+  height: 300px;
+  object-fit: cover;
+}
+
 .pd60{
     padding-bottom: 60px;
 }

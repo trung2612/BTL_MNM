@@ -64,3 +64,11 @@ body {
 .textRight {
   text-align: right;
 }
+/* color */
+.cTemplateRed{
+  color: #f33f3f;
+}
+/* Text */
+.uppercase{
+  text-transform: uppercase;
+}

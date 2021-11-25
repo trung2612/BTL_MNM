@@ -1,7 +1,9 @@
 import styles from "./Link.module.css";
 
 const Link = (props) => {
-    return <span className={styles.link}>{props.children}</span>
+    const classes = styles.link + " " + props.className;
+    
+    return <span className={classes}>{props.children}</span>
 };
 
 export default Link;
