@@ -1,14 +1,13 @@
 import React from "react";
 import styles from "./Home.module.css";
-import ProductItem from "../molecules/ProductItem/ProductItem";
-import Row from "../atoms/Row/Row";
-import Container from "../atoms/Container/Container";
-import SectionTitle from "../molecules/SectionTitle/SectionTitle";
-import HalfCard from "../layouts/HalfCard/HalfCard";
-import Col from "../atoms/Col/Col";
-import Img from "../atoms/Img/Img";
-import Link from "../atoms/Link/Link";
-import Button from "../atoms/Button/Button";
+import ProductItem from "../../components/molecules/ProductItem/ProductItem";
+import Row from "../../components/atoms/Row/Row";
+import Container from "../../components/atoms/Container/Container";
+import SectionTitle from "../../components/molecules/SectionTitle/SectionTitle";
+import Col from "../../components/atoms/Col/Col";
+import Img from "../../components/atoms/Img/Img";
+import Link from "../../components/atoms/Link/Link";
+import Button from "../../components/atoms/Button/Button";
 import commonStyle from "../../styles/commonStyle.module.css";
 
 const Home = () => {
@@ -94,7 +93,7 @@ const Home = () => {
               </div>
             </Col>
             <Col className={commonStyle.col6}>
-              <Img
+              <Img className={styles.bestFeaturesImg}
                 src="https://www.aboutboot.com/wp-content/uploads/2018/05/How-to-Remove-Tar-from-Shoes.jpg"
                 alt="abc"
               />

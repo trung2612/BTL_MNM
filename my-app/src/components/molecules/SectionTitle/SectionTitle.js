@@ -1,12 +1,18 @@
 import styles from "./SectionTitle.module.css";
+import Col from "../../atoms/Col/Col";
+import commonStyle from "../../../styles/commonStyle.module.css";
 
 const SectionTitle = (props) => {
-    return <div className={styles.sectionTitle}>
+  return (
+    <Col className={commonStyle.col12}>
+      <div className={styles.sectionTitle}>
         <div className={styles.heading}>
-            <h2>{props.title}</h2>
-            <span>{props.right}</span>
+          <h2>{props.title}</h2>
+          <span>{props.right}</span>
         </div>
-    </div>
+      </div>
+    </Col>
+  );
 };
 
 export default SectionTitle;

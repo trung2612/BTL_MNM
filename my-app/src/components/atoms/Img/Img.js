@@ -1,8 +1,10 @@
 import styles from "./Img.module.css";
 
 const Img = (props) => {
+  const classes = styles.imgWrapper + " " + props.className;
+
   return (
-    <div className={styles.imgWrapper}>
+    <div className={classes}>
       <img src={props.src} alt={props.alt} />
     </div>
   );

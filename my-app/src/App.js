@@ -1,6 +1,6 @@
 import "./App.css";
 import Navbar from "./components/layouts/Navbar/Navbar";
-import Home from "./components/Home/Home";
+import Home from "./feature/Home/Home";
 import Product from "./components/Products/Products";
 import Contact from "./components/Contact/Contact";
 import About from "./components/AboutUs/About";
@@ -38,7 +38,7 @@ function App() {
     setIsAbout(true);
   };
   return (
-    <>
+    <ContentLayout>
       <Navbar
         onHome={homeHandler}
         onProduct={productHandler}
@@ -49,7 +49,7 @@ function App() {
       {isProduct && <Product />}
       {isContact && <Contact />}
       {isAbout && <About />}
-    </>
+    </ContentLayout>
   );
 }
 
