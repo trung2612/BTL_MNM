@@ -1,17 +1,18 @@
 import React from "react";
 import "./Navbar.css";
+import { Link } from "react-router-dom";
 
-const NavbarComponent = (props) => {
+const NavbarComponent = () => {
   return (
     <>
       <header>
         <nav className="navbar navbar-expand-lg">
           <div className="container">
-            <span className="navbar-brand" onClick={props.onHome}>
+            <Link className="navbar-brand" to="/">
               <h2>
                 Sixteen <em>Clothing</em>
               </h2>
-            </span>
+            </Link>
             <button
               className="navbar-toggler"
               type="button"
@@ -25,32 +26,32 @@ const NavbarComponent = (props) => {
             </button>
             <div className="collapse navbar-collapse" id="navbarResponsive">
               <ul className="navbar-nav">
-                <li className="nav-item active" onClick={props.onHome}>
-                  <span className="nav-link">
+                <li className="nav-item active">
+                  <Link className="nav-link" to="/">
                     Home
-                  </span>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <span className="nav-link" onClick={props.onProduct}>
-                    Our Products
-                  </span>
+                  <Link className="nav-link" to="/Products">
+                    Products
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <span className="nav-link" onClick={props.onAbout}>
+                  <Link className="nav-link" to="/About">
                     About Us
-                  </span>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <span className="nav-link" onClick={props.onContact}>
+                  <Link className="nav-link" to="/Contact">
                     Contact Us
-                  </span>
+                  </Link>
                 </li>
               </ul>
             </div>
           </div>
         </nav>
       </header>
-     </>
+    </>
   );
 };
 
