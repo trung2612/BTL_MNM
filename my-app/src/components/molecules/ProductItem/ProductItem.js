@@ -8,11 +8,11 @@ import style from "./ProductItem.module.css";
 const ProductItem = (props) => {
   return (
     <div className={style.productItem}>
-      <Link to="/">
+      <Link to="/product-detail">
         <img src={props.src} alt={props.alt} />
       </Link>
       <div className={style.downContent}>
-        <Link to="/">
+        <Link to="/product-detail">
           <h4>{props.title}</h4>
         </Link>
         <h6>{props.price}$</h6>
@@ -25,7 +25,7 @@ const ProductItem = (props) => {
             </li>
           ))}
         </ul>
-        <Link to="/" className={style.review}>
+        <Link to="/product-detail" className={style.review}>
           Review({props.review})
         </Link>
       </div>
