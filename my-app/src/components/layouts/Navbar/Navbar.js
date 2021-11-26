@@ -1,8 +1,13 @@
 import React from "react";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 
 const NavbarComponent = () => {
+  const location = useLocation();
+  const { pathname } = location;
+    const splitLocation = pathname.split("/");
+
   return (
     <>
       <header>
@@ -26,22 +31,22 @@ const NavbarComponent = () => {
             </button>
             <div className="collapse navbar-collapse" id="navbarResponsive">
               <ul className="navbar-nav">
-                <li className="nav-item active">
+                <li className={splitLocation[1] === "" ? "active nav-item" : "nav-item"}>
                   <Link className="nav-link" to="/">
                     Home
                   </Link>
                 </li>
-                <li className="nav-item">
+                <li className={splitLocation[1] === "Products" ? "active nav-item" : "nav-item"}>
                   <Link className="nav-link" to="/Products">
                     Products
                   </Link>
-                </li>
-                <li className="nav-item">
+                </li> 
+                <li className={splitLocation[1] === "About" ? "active nav-item" : "nav-item"}>
                   <Link className="nav-link" to="/About">
                     About Us
                   </Link>
                 </li>
-                <li className="nav-item">
+                <li className={splitLocation[1] === "Contact" ? "active nav-item" : "nav-item"}>
                   <Link className="nav-link" to="/Contact">
                     Contact Us
                   </Link>
