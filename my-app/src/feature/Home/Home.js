@@ -1,8 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import cx from "clsx";
-import styles from "./Home.module.css";
-
 import productDummyData from "../../dummy-data/products.json";
 import ProductItem from "../../components/molecules/ProductItem/ProductItem";
 import Row from "../../components/atoms/Row/Row";
