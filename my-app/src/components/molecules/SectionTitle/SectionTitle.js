@@ -9,7 +9,7 @@ const SectionTitle = (props) => {
       <div className={styles.sectionTitle}>
         <div className={styles.heading}>
           <h2>{props.title}</h2>
-          <Link to="/">{props.right}</Link>
+          <Link to="/Products">{props.right}</Link>
         </div>
       </div>
     </Col>

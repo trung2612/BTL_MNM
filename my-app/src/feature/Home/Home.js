@@ -61,7 +61,9 @@ const Home = () => {
                   <li>Corporis, omnis doloremque</li>
                   <li>Non cum id reprehenderit</li>
                 </ul>
-                <Button className={styles.filledButton}>Read More</Button>
+                <Link to="/About">
+                  <Button className={styles.filledButton}>Read More</Button>
+                </Link>
               </div>
             </Col>
             <Col className={commonStyle.col6}>
