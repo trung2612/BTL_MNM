@@ -1,12 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
-<<<<<<< HEAD
 import cx from "clsx";
 import styles from "./Home.module.css";
-=======
 
 import productDummyData from "../../dummy-data/products.json";
->>>>>>> 7e3b0ea9c8747220b2e13bd98b9f8e7000bcf183
 import ProductItem from "../../components/molecules/ProductItem/ProductItem";
 import Row from "../../components/atoms/Row/Row";
 import Container from "../../components/atoms/Container/Container";
@@ -95,13 +92,7 @@ const Home = () => {
                       Itaque corporis amet elite author nulla.
                     </p>
                   </Col>
-<<<<<<< HEAD
                   <Col className={cx(commonStyle.textRight, commonStyle.col4)}>
-=======
-                  <Col
-                    className={commonStyle.textRight + " " + commonStyle.col4}
-                  >
->>>>>>> 7e3b0ea9c8747220b2e13bd98b9f8e7000bcf183
                     <Button>Purchase Now</Button>
                   </Col>
                 </Row>
