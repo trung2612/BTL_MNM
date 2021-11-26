@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import cx from "clsx";
 import styles from "./Home.module.css";
 import ProductItem from "../../components/molecules/ProductItem/ProductItem";
 import Row from "../../components/atoms/Row/Row";
@@ -117,7 +118,7 @@ const Home = () => {
                       Itaque corporis amet elite author nulla.
                     </p>
                   </Col>
-                  <Col className={commonStyle.textRight + " " + commonStyle.col4}>
+                  <Col className={cx(commonStyle.textRight, commonStyle.col4)}>
                     <Button>Purchase Now</Button>
                   </Col>
                 </Row>

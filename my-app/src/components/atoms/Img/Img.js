@@ -1,10 +1,9 @@
+import cx from "clsx";
 import styles from "./Img.module.css";
 
 const Img = (props) => {
-  const classes = styles.imgWrapper + " " + props.className;
-
   return (
-    <div className={classes}>
+    <div className={cx(styles.imgWrapper, props.className)}>
       <img src={props.src} alt={props.alt} />
     </div>
   );
