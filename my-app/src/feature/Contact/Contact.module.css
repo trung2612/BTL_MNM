@@ -1,32 +1,39 @@
+/* 
 ul.social-icons li {
 	display: inline-block;
 	margin-right: 3px;
 }
-ul.accordion li {
-	display: block;
-}
-.client-item img{
-	width: 200px;
-	float: right;
-}
-.section-heading img{
-	width: 450px;
+
+ul.social-icons li:last-child {
+	margin-right: 0px;
 }
 
-.section-heading h2 {
-	text-align: left;
-	margin-bottom: 60px;
-	border-bottom: 1px solid #eee;
+ul.social-icons li a {
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+	line-height: 50px;
+	background-color: #eee;
+	color: #121212;
+	font-size: 18px;
+	text-align: center;
+	transition: all .3s;
 }
+
+ul.social-icons li a:hover {
+	background-color: #f33f3f;
+	color: #fff;
+} */
+
 
 /* Clients */
 
-.happy-clients {
+.happyClients {
 	margin-top: 100px;
 	margin-bottom: 40px;
 }
 
-.happy-clients .client-item img {
+ .clientItem  {
 	max-width: 100%;
 	overflow: hidden;
 	transition: all .3s;
@@ -40,37 +47,39 @@ ul.accordion li {
 
 
 
-/* Find Us */
 
-.find-us {
+/* // */
+.latestContacts {
 	margin-top: 100px;
 }
 
-.find-us p {
+ p {
 	border-bottom: 1px solid #eee;
 	padding-bottom: 30px;
 	margin-bottom: 30px;
 }
 
-.find-us h4 {
+ h4 {
 	font-size: 17px;
 	color: #1a6692;
 	margin-bottom: 20px;
 }
 
-.find-us .left-content {
+ .leftContent {
 	margin-left: 30px;
 }
 
+.fa-facebook::before{
+	content: "\f09a";
+}
 
 
 /* Send Message */
 
-.send-message {
+.sendMessage {
 	margin-top: 100px;
 }
-
-.contact-form input {
+.contactForm {
 	font-size: 14px;
 	width: 100%;
 	height: 44px;
@@ -81,12 +90,24 @@ ul.accordion li {
 	margin-bottom: 30px;
 }
 
-.contact-form input:focus {
+
+.contactForm input {
+	font-size: 14px;
+	width: 100%;
+	height: 44px;
+	display: inline-block;
+	line-height: 42px;
+	border: 1px solid #eee;
+	border-radius: 0px;
+	margin-bottom: 30px;
+}
+
+.contactForm input:focus {
 	box-shadow: none;
 	border: 1px solid #eee;
 }
 
-.contact-form textarea {
+.contactForm textarea {
 	font-size: 14px;
 	width: 100%;
 	min-width: 100%;
@@ -98,12 +119,12 @@ ul.accordion li {
 	margin-bottom: 30px;
 }
 
-.contact-form textarea:focus {
+.contactForm textarea:focus {
 	box-shadow: none;
 	border: 1px solid #eee;
 }
 
-.contact-form button.filled-button {
+.contactForm button.filled-button {
 	background-color: #f33f3f;
 	color: #fff;
 	font-size: 14px;
@@ -118,13 +139,17 @@ ul.accordion li {
 	cursor: pointer;
 }
 
-.contact-form button.filled-button:hover {
+.contactForm button.filled-button:hover {
 	background-color: #121212;
 	color: #fff;
 }
-
-.accordion {
+.filledButton {
+  margin-top: 20px;
+}
+/*  */
+.Accordion {
 	margin-left: 30px;
+	list-style: none;
 }
 
 .accordion a {
@@ -143,7 +168,7 @@ ul.accordion li {
   color: #f33f3f!important;
 }
 
-.accordion li .content {
+.accordion li Content {
   display: none;
   margin-top: 10px;
 }
@@ -155,5 +180,13 @@ ul.accordion li {
 .accordion li {
 	border-bottom: 1px solid #eee;
 	padding: 15px 0px;
+} 
+.textRight{
+    text-align: right;
 }
+.a{
+	text-decoration: none;
+}
+
+
 
