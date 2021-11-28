@@ -2,7 +2,7 @@ import "./App.css";
 import { Routes, Route } from "react-router-dom";
 import Home from "./feature/Home/Home";
 import Product from "./feature/Products/Products";
-import Contact from "./components/Contact/Contact";
+import Contact from "./feature/Contact/Contact";
 import About from "./components/AboutUs/About";
 import ProductDetail from "./feature/ProductDetail/ProductDetail";
 import ContentLayout from "./components/layouts/ContentLayout/ContentLayout";
