@@ -1,83 +1,38 @@
-/* 
-ul.social-icons li {
-	display: inline-block;
-	margin-right: 3px;
-}
-
-ul.social-icons li:last-child {
-	margin-right: 0px;
-}
-
-ul.social-icons li a {
-	width: 50px;
-	height: 50px;
-	display: inline-block;
-	line-height: 50px;
-	background-color: #eee;
-	color: #121212;
-	font-size: 18px;
-	text-align: center;
-	transition: all .3s;
-}
-
-ul.social-icons li a:hover {
-	background-color: #f33f3f;
-	color: #fff;
-} */
-
-
-/* Clients */
-
-.happyClients {
-	margin-top: 100px;
-	margin-bottom: 40px;
-}
-
- .clientItem  {
-	max-width: 100%;
-	overflow: hidden;
-	transition: all .3s;
-	cursor: pointer;
-}
-
-.happy-clients .client-item img:hover {
-	opacity: 0.8;
-}
-
-
-
-
-
-/* // */
-.latestContacts {
+/* find us */
+.findUs{
 	margin-top: 100px;
 }
 
- p {
-	border-bottom: 1px solid #eee;
-	padding-bottom: 30px;
-	margin-bottom: 30px;
+.leftContent{
+	margin-left: 30px;
 }
 
- h4 {
+.leftContent h4 {
 	font-size: 17px;
 	color: #1a6692;
 	margin-bottom: 20px;
 }
 
- .leftContent {
-	margin-left: 30px;
+.leftContent p{
+	border-bottom: 1px solid #eee;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
 }
 
-.fa-facebook::before{
-	content: "\f09a";
+.map iframe{
+	width:100%;
+	height:330px;
+	border:0;
 }
-
 
 /* Send Message */
 
 .sendMessage {
 	margin-top: 100px;
+}
+
+.sendMessage button {
+	line-height: initial;
 }
 .contactForm {
 	font-size: 14px;
@@ -146,10 +101,69 @@ ul.social-icons li a:hover {
 .filledButton {
   margin-top: 20px;
 }
+
+
+
+/* Clients */
+
+.happyClients {
+	margin-top: 100px;
+	margin-bottom: 40px;
+}
+
+ .clientItem  {
+	max-width: 100%;
+	overflow: hidden;
+	transition: all .3s;
+	cursor: pointer;
+}
+
+.happy-clients .client-item img:hover {
+	opacity: 0.8;
+}
+
+
+
+
+
+/* // */
+.latestContacts {
+	margin-top: 100px;
+}
+
+ p {
+	border-bottom: 1px solid #eee;
+	padding-bottom: 30px;
+	margin-bottom: 30px;
+}
+
+ h4 {
+	font-size: 17px;
+	color: #1a6692;
+	margin-bottom: 20px;
+}
+
+ .leftContent {
+	margin-left: 30px;
+}
+
+.fa-facebook::before{
+	content: "\f09a";
+}
+
+
+
 /*  */
-.Accordion {
+.accordion {
 	margin-left: 30px;
 	list-style: none;
+}
+
+.accordion{
+	padding: 0;
+    margin: 0;
+    list-style: none;
+	margin-left: 30px;
 }
 
 .accordion a {
@@ -160,27 +174,28 @@ ul.social-icons li a:hover {
 	transition: all .3s;
 }
 
-.accordion a:hover {
-	color: #f33f3f!important;
+.accordion li {
+	padding: 15px 0px;
+} 
+
+.accordion li a {
+	cursor: pointer;
+    font-size: 17px;
+    color: #1a6692!important;
+    margin-bottom: 20px;
+    transition: all .3s;
+	text-decoration: none;
 }
 
-.accordion a.active {
+.accordion li a:hover {
   color: #f33f3f!important;
 }
 
-.accordion li Content {
-  display: none;
+.accordion li p {
   margin-top: 10px;
 }
 
-.accordion li:first-child {
-	border-top: 1px solid #eee;
-}
 
-.accordion li {
-	border-bottom: 1px solid #eee;
-	padding: 15px 0px;
-} 
 .textRight{
     text-align: right;
 }
