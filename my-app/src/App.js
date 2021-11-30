@@ -1,9 +1,10 @@
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
 import Home from "./feature/Home/Home";
-import Product from "./components/Products/Products";
-import Contact from "./components/Contact/Contact";
-import About from "./components/AboutUs/About";
+import Product from "./feature/Products/Products";
+import About from "./feature/AboutUs/About";
+import Contact from "./feature/Contact/Contact";
+import ProductDetail from "./feature/ProductDetail/ProductDetail";
 import ContentLayout from "./components/layouts/ContentLayout/ContentLayout";
 import AoQuan from "./components/Products/productchild/Aoquan";
 import Vay from "./components/Products/productchild/Vay";
@@ -24,6 +25,7 @@ function App() {
         </Route>
         <Route path="/contact" element={<Contact />} />
         <Route path="/about" element={<About />} />
+        <Route path="/product-detail" element={<ProductDetail />} />
       </Routes>
     </ContentLayout>
   );

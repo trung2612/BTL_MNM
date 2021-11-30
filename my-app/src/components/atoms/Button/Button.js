@@ -1,11 +1,10 @@
+import cx from "clsx";
 import styles from "./Button.module.css";
 
 const Button = (props) => {
-  const classes = styles.button + " " + props.className;
-  
   return (
     <button
-      className={classes}
+      className={cx(styles.button,props.className)}
       type={props.type || "button"}
       onClick={props.onClick}
     >

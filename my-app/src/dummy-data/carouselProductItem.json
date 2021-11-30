@@ -1,0 +1,19 @@
+{
+    "productItem": [
+        {
+            "id": 1,
+            "src": "https://img5.thuthuatphanmem.vn/uploads/2021/08/25/hinh-nen-may-tinh-4k-anime_084703472.jpg",
+            "alt": "first slide"
+        },
+        {
+            "id": 2,
+            "src": "https://img5.thuthuatphanmem.vn/uploads/2021/08/25/hinh-nen-3d-cho-may-tinh-4k_084701936.jpg",
+            "alt": "second slide1"
+        },
+        {
+            "id": 3,
+            "src": "https://wallpaperaccess.com/full/250472.jpg",
+            "alt": "third slide"
+        }
+    ]
+}

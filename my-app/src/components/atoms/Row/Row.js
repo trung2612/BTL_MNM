@@ -1,8 +1,8 @@
+import cx from "clsx";
 import styles from "./Row.module.css";
 
 const Row = (props) => {
-    const classes = styles.row + " " + props.className;
-    return <div className={classes}>{props.children}</div>
+    return <div className={cx(styles.row, props.className)}>{props.children}</div>
 };
 
 export default Row;
