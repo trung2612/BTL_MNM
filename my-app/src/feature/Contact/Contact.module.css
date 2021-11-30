@@ -79,7 +79,7 @@
 	border: 1px solid #eee;
 }
 
-.contactForm button.filled-button {
+.contactFormButtonFilled {
 	background-color: #f33f3f;
 	color: #fff;
 	font-size: 14px;
@@ -94,7 +94,7 @@
 	cursor: pointer;
 }
 
-.contactForm button.filled-button:hover {
+.contactFormButtonFilled:hover {
 	background-color: #121212;
 	color: #fff;
 }
