@@ -4,7 +4,12 @@
     margin-bottom: 60px;
     margin-top: 60px;
 }
-
+a.active {
+    color: #f33f3f;
+}
+a {
+    text-decoration: none;
+}
 .ul {
     display: flex;
     text-decoration: none;
@@ -26,9 +31,13 @@
     cursor: pointer;
     line-height: 40px;
 }
+.filters ul li a {
+    text-decoration: none;
+    color: #121212;
+}
 
-.filters ul li.active,
-.filters ul li:hover {
+.filters ul li a.active,
+.filters ul li:hover a {
     color: #f33f3f;
 }
 
