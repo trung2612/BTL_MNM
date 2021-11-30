@@ -11,8 +11,9 @@ import { Link } from "react-router-dom";
 import SocialMedia from "../../components/molecules/SocialMedia/SocialMedia";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar } from "@fortawesome/free-solid-svg-icons";
+import commonStyle from "../../styles/commonStyle.module.css"
+import dummydatateamMember from "../../dummy-data/teamMember.json"
 
-import commonStyle from "../../styles/commonStyle.module.css";
 
 const About = () => {
   return (
@@ -62,83 +63,24 @@ const About = () => {
                 <h2>Our Team Members</h2>
               </div>
             </Col>
-            <Col className={commonStyle.col4}>
-              <div className={styles.teamMember}>
-                <div className={styles.thumbContainer}>
-                  <img
-                    src="https://vnn-imgs-f.vgcloud.vn/2021/09/08/16/lingard-tu-choi-gia-han-mu-nguy-co-mat-trang.jpg"
-                    alt=""
-                  />
-                  <div class={styles.hoverEffect}>
-                    <div class={styles.hoverContent}>
-                      <SocialMedia/>
+
+            {
+              dummydatateamMember.map((data) => (
+
+                <Col className={commonStyle.col4}>
+                  <div className={styles.teamMember}>
+                    <div className={styles.thumbContainer}>
+                      <img src= {data.imgUrl} alt={data.alt} />
+                    </div>
+                    <div className={styles.downContent}>
+                      <h4>{data.name}</h4>
+                      <span>{data.job}</span>
+                      <p>{data.content} </p>
                     </div>
                   </div>
-                </div>
-                <div className={styles.downContent}>
-                  <h4>Nguyễn Hà Trung</h4>
-                  <span>CO-Founder</span>
-                  <p className={commonStyle.p}>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing itaque
-                    corporis nulla.
-                  </p>
-                </div>
-              </div>
-            </Col>
-            <Col className={commonStyle.col4}>
-              <div className={styles.teamMember}>
-                <div className={styles.thumbContainer}>
-                  <img
-                    src="https://vnn-imgs-f.vgcloud.vn/2021/09/08/16/lingard-tu-choi-gia-han-mu-nguy-co-mat-trang.jpg"
-                    alt=""
-                  />
-                </div>
-                <div className={styles.downContent}>
-                  <h4>Nguyễn Hà Trung</h4>
-                  <span>CO-Founder</span>
-                  <p className={commonStyle.p}>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing itaque
-                    corporis nulla.
-                  </p>
-                </div>
-              </div>
-            </Col>
-            <Col className={commonStyle.col4}>
-              <div className={styles.teamMember}>
-                <div className={styles.thumbContainer}>
-                  <img
-                    src="https://vnn-imgs-f.vgcloud.vn/2021/09/08/16/lingard-tu-choi-gia-han-mu-nguy-co-mat-trang.jpg"
-                    alt=""
-                  />
-                </div>
-                <div className={styles.downContent}>
-                  <h4>Nguyễn Hà Trung</h4>
-                  <span>CO-Founder</span>
-                  <p className={commonStyle.p}>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing itaque
-                    corporis nulla.
-                  </p>
-                </div>
-              </div>
-            </Col>
-            <Col className={commonStyle.col4}>
-              <div className={styles.teamMember}>
-                <div className={styles.thumbContainer}>
-                  <img
-                    src="https://vnn-imgs-f.vgcloud.vn/2021/09/08/16/lingard-tu-choi-gia-han-mu-nguy-co-mat-trang.jpg"
-                    alt=""
-                  />
-                </div>
-                <div className={styles.downContent}>
-                  <h4>Nguyễn Hà Trung</h4>
-                  <span>CO-Founder</span>
-                  <p className={commonStyle.p}>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing itaque
-                    corporis nulla.
-                  </p>
-                </div>
-              </div>
-            </Col>
+                </Col>
+
+              ))}
           </Row>
         </Container>
       </div>

@@ -27,7 +27,7 @@
 
 .teamMember {
   border: 1px solid #eee;
-  margin-bottom: 30px;
+  margin-bottom: 25px;
 }
 
 .thumbContainer {
@@ -40,7 +40,7 @@
 }
 
 .downContent {
-  padding: 30px;
+  padding: 20px;
   text-align: center;
 }
 

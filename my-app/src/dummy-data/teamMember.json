@@ -1,0 +1,45 @@
+[
+    {
+        "id": 1,
+        "imgUrl": "https://i.redd.it/zx60pydpy1731.jpg",
+        "alt": "",
+        "title": "Unknow",
+        "name":"Nguyễn Hà Trung",
+        "job":"CO-Founder",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque efficitur, nunc quis consectetur ullamcorper, augue est mollis nisi, id"
+
+    },
+    {
+        "id": 2,
+        "imgUrl": "https://static01.nyt.com/images/2021/10/20/us/20facebook/20facebook-mediumSquareAt3X.jpg",
+        "alt": "",
+        "title": "Unknow",
+        "name":"Đinh Anh Tuân",
+        "job":"Product Expert",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque efficitur, nunc quis consectetur ullamcorper, augue est mollis nisi, id"
+
+    },
+    {
+        "id": 3,
+        "imgUrl": "https://assets.gqindia.com/photos/5cdc5a94de9b7e34048f44a9/1:1/w_1080,h_1080,c_limit/Tim-Cook.jpg",
+        "alt": "",
+        "title": "Unknow",
+        "name":"Khổng Quang Hà",
+        "job":"Chief Marketing",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque efficitur, nunc quis consectetur ullamcorper, augue est mollis nisi, id"
+
+    },
+
+    {
+        "id": 4,
+        "imgUrl": "https://mlr7mulhtb58.i.optimole.com/8NacPFo-FBKEnZyo/w:auto/h:auto/q:auto/https://doerlife.com/wp-content/uploads/2020/03/SP.png",
+        "alt": "",
+        "title": "Unknow",
+        "name":"Trần Cao Duy",
+        "job":"General Manager",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque efficitur, nunc quis consectetur ullamcorper, augue est mollis nisi, id"
+
+    }
+
+
+]
