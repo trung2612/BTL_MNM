@@ -75,7 +75,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <fieldset>
-                      <button type="submit" id="form-submit" className={cx(commonStyle.textright,commonStyle.col4)}>Send Message</button>
+                      <button  className={cx(styles.contactFormButtonFilled ,commonStyle.col4)}>Send Message</button>
                     </fieldset>
                   </div>
                 </div>
@@ -93,33 +93,26 @@ const Contact = () => {
               </li>
               <li>
                 <h4>Second Title Here</h4>
-                  <div className={styles.leftContent}>
                     <p className={commonStyle.p}>Lorem ipsum dolor sit amet, consectetur adipisic elit.
                        Sed voluptate nihil eumester consectetur similiqu consectetur.<br/><br/>Lorem ipsum dolor sit amet,
                         consectetur adipisic elit. Et, consequuntur, modi mollitia corporis ipsa voluptate corrupti elite.</p>
-                  </div>
                       
  
               </li>
               <li>
                 <h4>Accordion Title Three</h4>
-                  <div className={styles.leftContent}>
                     <p className={commonStyle.p}>Lorem ipsum dolor sit amet, consectetur adipisic elit.
                        Sed voluptate nihil eumester consectetur similiqu consectetur.<br/><br/>Lorem ipsum dolor sit amet,
                         consectetur adipisic elit. Et, consequuntur, modi mollitia corporis ipsa voluptate corrupti elite.</p>
-                  </div>
                       
  
               </li>
               <li>
                 <h4>Fourth Accordion Title</h4>
-                  <div className={styles.leftContent}>
                     <p className={commonStyle.p}>Lorem ipsum dolor sit amet, consectetur adipisic elit. 
                       Sed voluptate nihil eumester consectetur similiqu consectetur.<br/><br/>Lorem ipsum dolor sit amet,
                        consectetur adipisic elit. Et, consequuntur, modi mollitia corporis ipsa voluptate corrupti elite.</p>
-                  </div>
                       
- 
               </li>
             </ul>
           </div>
