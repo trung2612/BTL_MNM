@@ -6,13 +6,23 @@ import About from "./feature/AboutUs/About";
 import Contact from "./feature/Contact/Contact";
 import ProductDetail from "./feature/ProductDetail/ProductDetail";
 import ContentLayout from "./components/layouts/ContentLayout/ContentLayout";
+import AoQuan from "./components/Products/productchild/Aoquan";
+import Vay from "./components/Products/productchild/Vay";
+import PhuKien from "./components/Products/productchild/Phukien";
+import Khac from "./components/Products/productchild/Khac";
+
 
 function App() {
   return (
     <ContentLayout>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/products" element={<Product />} />
+        <Route path="/products" element={<Product />}>
+            <Route path="/products" element={<AoQuan />} />
+            <Route path="/products/vay" element={<Vay />} />
+            <Route path="/products/phukien" element={<PhuKien />} />
+            <Route path="/products/khac" element={<Khac />} />
+        </Route>
         <Route path="/contact" element={<Contact />} />
         <Route path="/about" element={<About />} />
         <Route path="/product-detail" element={<ProductDetail />} />
