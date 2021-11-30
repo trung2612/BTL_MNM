@@ -8,6 +8,7 @@ import SectionTitle from "../../components/molecules/SectionTitle/SectionTitle";
 import Col from "../../components/atoms/Col/Col";
 import Img from "../../components/atoms/Img/Img";
 import { Link } from "react-router-dom";
+import SocialMedia from "../../components/molecules/SocialMedia/SocialMedia";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar } from "@fortawesome/free-solid-svg-icons";
 import commonStyle from "../../styles/commonStyle.module.css"
@@ -34,17 +35,20 @@ const About = () => {
               <div className={styles.leftContent}>
                 <h4>Who we are & What we do?</h4>
                 <p className={commonStyle.p}>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed voluptate nihil eum consectetur similique? Consectetur, quod, incidunt, harum nisi dolores delectus reprehenderit voluptatem perferendis dicta dolorem non blanditiis ex fugiat. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                <br/>
-                <br/>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed voluptate nihil eum consectetur similique? Consectetur, quod, incidunt, harum nisi dolores delectus reprehenderit voluptatem perferendis dicta dolorem non blanditiis ex fugiat. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed
+                  voluptate nihil eum consectetur similique? Consectetur, quod,
+                  incidunt, harum nisi dolores delectus reprehenderit voluptatem
+                  perferendis dicta dolorem non blanditiis ex fugiat. Lorem
+                  ipsum dolor sit amet, consectetur adipisicing elit.
+                  <br />
+                  <br />
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed
+                  voluptate nihil eum consectetur similique? Consectetur, quod,
+                  incidunt, harum nisi dolores delectus reprehenderit voluptatem
+                  perferendis dicta dolorem non blanditiis ex fugiat. Lorem
+                  ipsum dolor sit amet, consectetur adipisicing elit.
                 </p>
-                <ul className={styles.iconSocial}>
-                <li><Link to="/"><FontAwesomeIcon icon={faStar} color="#f33f3f" /></Link></li>
-                <li><Link to="/"><FontAwesomeIcon icon={faStar} color="#f33f3f" /></Link></li>
-                <li><Link to="/"><FontAwesomeIcon icon={faStar} color="#f33f3f" /></Link></li>
-                <li><Link to="/"><FontAwesomeIcon icon={faStar} color="#f33f3f" /></Link></li>
-              </ul>
+                <SocialMedia/>
               </div>
             </Col>
           </Row>
@@ -81,50 +85,69 @@ const About = () => {
         </Container>
       </div>
 
-
       <div className={styles.services}>
         <Container>
           <Row>
             <Col className={commonStyle.col4}>
               <div className={styles.serviceItem}>
                 <div className={styles.icon}>
-                  <Link to="/"><FontAwesomeIcon icon={faStar} color="#f33f3f" /></Link>
+                  <Link to="/">
+                    <FontAwesomeIcon icon={faStar} />
+                  </Link>
                 </div>
                 <div className={styles.downContenttent}>
                   <h4>Product Management</h4>
-                  <p className={commonStyle.p}>Lorem ipsum dolor sit amet, consectetur an adipisicing elit. Itaque, corporis nulla at quia quaerat.</p>
-                  <Link to="/" class="filled-button">Read More</Link>
+                  <p className={commonStyle.p}>
+                    Lorem ipsum dolor sit amet, consectetur an adipisicing elit.
+                    Itaque, corporis nulla at quia quaerat.
+                  </p>
+                  <Link to="/" class="filled-button">
+                    Read More
+                  </Link>
                 </div>
               </div>
             </Col>
             <Col className={commonStyle.col4}>
               <div className={styles.serviceItem}>
                 <div className={styles.icon}>
-                  <Link to="/"><FontAwesomeIcon icon={faStar} color="#f33f3f" /></Link>
+                  <Link to="/">
+                    <FontAwesomeIcon icon={faStar} />
+                  </Link>
                 </div>
                 <div className={styles.downContenttent}>
                   <h4>Product Management</h4>
-                  <p className={commonStyle.p}>Lorem ipsum dolor sit amet, consectetur an adipisicing elit. Itaque, corporis nulla at quia quaerat.</p>
-                  <Link to="/" class="filled-button">Read More</Link>
+                  <p className={commonStyle.p}>
+                    Lorem ipsum dolor sit amet, consectetur an adipisicing elit.
+                    Itaque, corporis nulla at quia quaerat.
+                  </p>
+                  <Link to="/" class="filled-button">
+                    Read More
+                  </Link>
                 </div>
               </div>
             </Col>
             <Col className={commonStyle.col4}>
               <div className={styles.serviceItem}>
                 <div className={styles.icon}>
-                  <Link to="/"><FontAwesomeIcon icon={faStar} color="#f33f3f" /></Link>
+                  <Link to="/">
+                    <FontAwesomeIcon icon={faStar} />
+                  </Link>
                 </div>
                 <div className={styles.downContenttent}>
                   <h4>Product Management</h4>
-                  <p className={commonStyle.p}>Lorem ipsum dolor sit amet, consectetur an adipisicing elit. Itaque, corporis nulla at quia quaerat.</p>
-                  <Link to="/" class="filled-button">Read More</Link>
+                  <p className={commonStyle.p}>
+                    Lorem ipsum dolor sit amet, consectetur an adipisicing elit.
+                    Itaque, corporis nulla at quia quaerat.
+                  </p>
+                  <Link to="/" class="filled-button">
+                    Read More
+                  </Link>
                 </div>
               </div>
             </Col>
           </Row>
         </Container>
       </div>
-
 
       <div className={styles.happyClients}>
         <Container>
@@ -140,22 +163,34 @@ const About = () => {
                   <div className={styles.owlStage}>
                     <div className={styles.owlItem}>
                       <div className={styles.clientItem}>
-                        <img src="https://anhdepfree.com/wp-content/uploads/2018/08/bo-hinh-nen-may-tinh-4k-cuc-dep-20.jpg" alt="4"/>
+                        <img
+                          src="https://anhdepfree.com/wp-content/uploads/2018/08/bo-hinh-nen-may-tinh-4k-cuc-dep-20.jpg"
+                          alt="4"
+                        />
                       </div>
                     </div>
                     <div className={styles.owlItem}>
                       <div className={styles.clientItem}>
-                        <img src="https://anhdepfree.com/wp-content/uploads/2018/08/bo-hinh-nen-may-tinh-4k-cuc-dep-20.jpg" alt="4"/>
+                        <img
+                          src="https://anhdepfree.com/wp-content/uploads/2018/08/bo-hinh-nen-may-tinh-4k-cuc-dep-20.jpg"
+                          alt="4"
+                        />
                       </div>
                     </div>
                     <div className={styles.owlItem}>
                       <div className={styles.clientItem}>
-                        <img src="https://anhdepfree.com/wp-content/uploads/2018/08/bo-hinh-nen-may-tinh-4k-cuc-dep-20.jpg" alt="4"/>
+                        <img
+                          src="https://anhdepfree.com/wp-content/uploads/2018/08/bo-hinh-nen-may-tinh-4k-cuc-dep-20.jpg"
+                          alt="4"
+                        />
                       </div>
                     </div>
                     <div className={styles.owlItem}>
                       <div className={styles.clientItem}>
-                        <img src="https://anhdepfree.com/wp-content/uploads/2018/08/bo-hinh-nen-may-tinh-4k-cuc-dep-20.jpg" alt="4"/>
+                        <img
+                          src="https://anhdepfree.com/wp-content/uploads/2018/08/bo-hinh-nen-may-tinh-4k-cuc-dep-20.jpg"
+                          alt="4"
+                        />
                       </div>
                     </div>
                   </div>

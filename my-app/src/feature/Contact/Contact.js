@@ -10,6 +10,7 @@ import Row from "../../components/atoms/Row/Row";
 import Col from "../../components/atoms/Col/Col";
 import Container from "../../components/atoms/Container/Container";
 import Button from  "../../components/atoms/Button/Button";
+import SocialMedia from "../../components/molecules/SocialMedia/SocialMedia";
 
 import commonStyle from "../../styles/commonStyle.module.css";
 import styles from "./Contact.module.css";
@@ -45,12 +46,7 @@ const Contact = () => {
                   Lorem ipsum dolor sit amet, consectetur adipisic elit. Et,
                   consequuntur, modi mollitia corporis ipsa voluptate corrupti.
                 </p>
-                {/* <ul className="social-icons">
-                <li><a href="/"><i className="fa fa-facebook"></i></a></li>
-                <li><a href="/"><i className="fa fa-twitter"></i></a></li>
-                <li><a href="/"><i className="fa fa-linkedin"></i></a></li>
-                <li><a href="/"><i className="fa fa-behance"></i></a></li>
-              </ul> */}
+                   <SocialMedia/>
               </div>
             </Col>
           </Row>

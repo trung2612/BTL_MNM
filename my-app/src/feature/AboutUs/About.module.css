@@ -1,3 +1,6 @@
+.bestFeatures{
+  margin-top: 100px;
+}
 .leftContent > p {
   margin-bottom: 25px;
   border-bottom: 1px solid #eee;
@@ -8,29 +11,13 @@
   line-height: 24px;
 }
 
-.iconSocial {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
-.iconSocial li {
-  display: inline-block;
-  margin-right: 3px;
-}
 
-.iconSocial li a {
-  width: 50px;
-  height: 50px;
-  display: inline-block;
-  line-height: 50px;
-  background-color: #eee;
-  color: #121212;
-  font-size: 18px;
-  text-align: center;
-  transition: all 0.3s;
-}
 
 /* Team member */
+.teamMembers{
+  margin-top: 100px;
+
+}
 
 .sectionHeading h2 {
   text-align: left;
@@ -71,6 +58,58 @@
   margin-bottom: 20px;
 }
 
+.hoverEffect {
+	position: absolute;
+	background-color: rgba(243,63,63,0.9);
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	visibility: hidden;
+	transition: all .5s;
+}
+
+.hoverContent {
+	position: absolute;
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.socialIcons2{padding: 0;
+	margin: 0;
+	list-style: none;}
+  .socialIcons2 li{
+    display: inline-block;
+  }
+  .socialIcons2 li 
+  {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    line-height: 50px;
+    background-color: #eee;
+    color: #121212;
+    font-size: 18px;
+    text-align: center;
+    transition: all .3s;
+    margin-right: 3px;
+  }
+
+
+.socialIcons2 li a:hover {
+	background-color: #fff;
+	color: #f33f3f;
+}
+
+.teamMember:hover .hoverEffect {
+	visibility: visible;
+	opacity: 1;
+}
+
 /* services */
 
 .serviceItem {
@@ -80,6 +119,17 @@
 .serviceItem .icon {
   background-color: #f7f7f7;
   padding: 40px;
+}
+.icon a
+{
+  width: 100px;
+    height: 100px;
+    display: inline-block;
+    text-align: center;
+    line-height: 100px;
+    background-color: #f33f3f;
+    color: #fff;
+    font-size: 32px;
 }
 
 .downContenttent {
@@ -107,6 +157,11 @@
   display: inline-block;
   transition: all 0.3s;
   text-decoration: none;
+}
+
+.downContenttent a:hover{
+  background-color: #121212;
+    color: #fff;
 }
 
 /* happy clients */
@@ -155,11 +210,11 @@
   -webkit-transform: translate3d(0, 0, 0);
 }
 
-.clientItem img{
-	display: block;
-    width: 100%;
-	max-width: 100%;
-    overflow: hidden;
-    transition: all .3s;
-    cursor: pointer;
+.clientItem img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  transition: all 0.3s;
+  cursor: pointer;
 }
