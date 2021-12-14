@@ -15,7 +15,7 @@ const NavbarComponent = () => {
           <div className="container">
             <Link className="navbar-brand" to="/">
               <h2>
-                Sixteen <em>Clothing</em>
+                HT <em>Store</em>
               </h2>
             </Link>
             <button

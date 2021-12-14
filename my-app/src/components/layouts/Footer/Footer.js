@@ -15,8 +15,8 @@ const Footer = () => {
           <Col className={commonStyle.col12}>
             <div className={cx(styles.innerContent, commonStyle.textCenter)}>
               <p className={cx(commonStyle.uppercase, commonStyle.p)}>
-                Copyright © 2020 Sixteen Clothing Co., Ltd. - Design:{" "}
-                <Link to="/" className={commonStyle.cTemplateRed}> TemplateMo</Link>
+                Bản quyền thuộc về HT Store © 2020  - Design: Duy, Hà, Trung, Tuân,{" "}
+                <Link to="/" className={commonStyle.cTemplateRed}> HT Store</Link>
               </p>
             </div>
           </Col>

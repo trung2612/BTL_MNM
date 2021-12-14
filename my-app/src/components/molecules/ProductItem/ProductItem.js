@@ -9,13 +9,13 @@ const ProductItem = (props) => {
   return (
     <div className={style.productItem}>
       <Link to="/product-detail">
-        <img src={props.src} alt={props.alt} />
+        <img className={style.banner} src={props.src} alt={props.alt} />
       </Link>
       <div className={style.downContent}>
         <Link to="/product-detail">
           <h4>{props.title}</h4>
         </Link>
-        <h6>{props.price}$</h6>
+        <h6>{props.price}k</h6>
         <p>{props.content}</p>
 
         <ul className={style.start}>

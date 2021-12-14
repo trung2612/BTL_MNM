@@ -21,7 +21,7 @@ const Home = () => {
       <div className={styles.latestProducts}>
         <Container>
           <Row>
-            <SectionTitle title="Latest Products" right="view all products >" />
+            <SectionTitle title="Sản phẩm mới" right="Tất cả sản phẩm >" />
             {productDummyData.map((data) => (
               <Col key={data.id} className={commonStyle.col4}>
                 <ProductItem
@@ -43,33 +43,37 @@ const Home = () => {
       <div className={styles.bestFeatures}>
         <Container>
           <Row className={styles.pd60}>
-            <SectionTitle title="About Sixteen Clothing" />
+            <SectionTitle title="Về cửa hàng HT Store" />
             <Col className={commonStyle.col6}>
               <div className={styles.leftContent}>
-                <h4>Looking for the best products?</h4>
+                <h4>Bạn đang tìm kiếm những sản phẩm tốt nhất?</h4>
                 <p className={commonStyle.p}>
-                  <Link to="/">This template</Link> is free to use for your
-                  business websites. However, you have no permission to
-                  redistribute the downloadable ZIP file on any template
-                  collection website. <Link to="/Contact">Contact us</Link> for
-                  more info.
+                  Ra đời từ 2014, thương hiệu thời trang HT Store xác định sứ
+                  mệnh giúp các chàng trai, cô gái trở nên đẹp hơn với phiên bản của
+                  chính mình. Ngày nay giới trẻ đang đứng những cơ hội tuyệt
+                  vời của xã hội hiện đại, công nghệ thông tin phát triển, cuộc
+                  cách mạng của các trang mạng xã hội để khẳng định bản thân.
+                  Bên cạnh đó, HT Store hiểu rằng người trẻ cũng đang phải đối diện
+                  với những áp lực, thử thách thôi thúc bản thân phải thể hiên
+                  mình so với những người khác..{" "}
+                  <Link to="/Contact">Liên hệ</Link> với chúng tôi để biết thêm thông tin.
                 </p>
                 <ul className={commonStyle.ul}>
-                  <li>Lorem ipsum dolor sit amet</li>
-                  <li>Consectetur an adipisicing elit</li>
-                  <li>It aquecorporis nulla aspernatur</li>
-                  <li>Corporis, omnis doloremque</li>
-                  <li>Non cum id reprehenderit</li>
+                  <li>Luôn đặt uy tín lên hàng đầu</li>
+                  <li>Giá rẻ đến tận tay khách hàng</li>
+                  <li>Chuyên sỉ lẻ quần áo tận xưởng, không qua trung gian</li>
+                  <li>Cập nhật mẫu mã liên tục</li>
+                  <li>Sản phẩm chất lượng hàng đầu</li>
                 </ul>
                 <Link to="/About">
-                  <Button className={styles.filledButton}>Read More</Button>
+                  <Button className={styles.filledButton}>Đọc thêm</Button>
                 </Link>
               </div>
             </Col>
             <Col className={commonStyle.col6}>
               <Img
                 className={styles.bestFeaturesImg}
-                src="https://anhdepfree.com/wp-content/uploads/2018/08/bo-hinh-nen-may-tinh-4k-cuc-dep-20.jpg"
+                src="https://c0.wallpaperflare.com/preview/870/553/120/workshop-woman-clothing-dress.jpg"
                 alt="abc"
               />
             </Col>
@@ -85,15 +89,14 @@ const Home = () => {
                 <Row>
                   <Col className={commonStyle.col8}>
                     <h4>
-                      Creative &amp; Unique <em>Sixteen</em> Products
+                      Sáng tạp &amp; độc nhất tại <em>HT </em> Store
                     </h4>
                     <p className={commonStyle.p}>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Itaque corporis amet elite author nulla.
+                      Nhanh tay đặt hàng để nhận nhiều ưu đãi của HT Store các bạn iuuuu
                     </p>
                   </Col>
                   <Col className={cx(commonStyle.textRight, commonStyle.col4)}>
-                    <Button>Purchase Now</Button>
+                    <Button>Mua hàng ngay</Button>
                   </Col>
                 </Row>
               </div>
