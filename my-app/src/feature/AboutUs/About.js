@@ -13,7 +13,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar } from "@fortawesome/free-solid-svg-icons";
 import commonStyle from "../../styles/commonStyle.module.css"
 import dummydatateamMember from "../../dummy-data/teamMember.json"
-
+import dummydataHappyPartner from "../../dummy-data/happypartner.json"
 
 const About = () => {
   return (
@@ -22,31 +22,28 @@ const About = () => {
       <div className={styles.bestFeatures}>
         <Container>
           <Row className={styles.pd60}>
-            <SectionTitle title="Our Background" />
+            <SectionTitle title="Nền tảng của chúng tôi" />
 
             <Col className={commonStyle.col6}>
               <Img
                 className={styles.bestFeaturesImg}
-                src="https://anhdepfree.com/wp-content/uploads/2018/08/bo-hinh-nen-may-tinh-4k-cuc-dep-20.jpg"
+                src="https://bazaarvietnam.vn/wp-content/uploads/2018/11/retro-look-phong-cach-retro-qua-cac-thap-nien-00-thumb.jpg"
                 alt="abc"
               />
             </Col>
             <Col className={commonStyle.col6}>
               <div className={styles.leftContent}>
-                <h4>Who we are & What we do?</h4>
+                <h4>Chúng tôi là ai & chúng tôi làm gì?</h4>
                 <p className={commonStyle.p}>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed
-                  voluptate nihil eum consectetur similique? Consectetur, quod,
-                  incidunt, harum nisi dolores delectus reprehenderit voluptatem
-                  perferendis dicta dolorem non blanditiis ex fugiat. Lorem
-                  ipsum dolor sit amet, consectetur adipisicing elit.
+                  Được hình thành trong thời đại 4.0, 
+                  HT STORE áp dụng sức mạnh của công nghệ vào thời trang để đưa ra 
+                  Giải pháp mua sắm đồ cơ bản cho nam giới với mô hình tiện lợi hơn, 
+                  tiết kiệm hơn - khách hàng có thể mua cả tủ đồ đảm bảo chất lượng, 
+                  giá tốt, giao hàng nhanh chóng, và dịch vụ chăm sóc vượt trội.
                   <br />
                   <br />
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed
-                  voluptate nihil eum consectetur similique? Consectetur, quod,
-                  incidunt, harum nisi dolores delectus reprehenderit voluptatem
-                  perferendis dicta dolorem non blanditiis ex fugiat. Lorem
-                  ipsum dolor sit amet, consectetur adipisicing elit.
+                  Chúng tôi luôn trân trọng và mong đợi nhận được mọi ý kiến đóng góp từ khách hàng
+                  để có thể nâng cấp trải nghiệm dịch vụ và sản phẩm tốt hơn nữa.
                 </p>
                 <SocialMedia/>
               </div>
@@ -60,7 +57,7 @@ const About = () => {
           <Row>
             <Col className={commonStyle.col12}>
               <div className={styles.sectionHeading}>
-                <h2>Our Team Members</h2>
+                <h2>Thành viên nhóm</h2>
               </div>
             </Col>
 
@@ -154,45 +151,25 @@ const About = () => {
           <Row>
             <Col className={commonStyle.col12}>
               <div className={styles.sectionHeadinging}>
-                <h2>Happy Partners</h2>
+                <h2>Thương hiệu nổi bật</h2>
               </div>
             </Col>
+
+
             <Col className={commonStyle.col12}>
               <div className={styles.owl}>
                 <div className={styles.owlStageOuter}>
                   <div className={styles.owlStage}>
-                    <div className={styles.owlItem}>
-                      <div className={styles.clientItem}>
-                        <img
-                          src="https://anhdepfree.com/wp-content/uploads/2018/08/bo-hinh-nen-may-tinh-4k-cuc-dep-20.jpg"
-                          alt="4"
-                        />
-                      </div>
-                    </div>
-                    <div className={styles.owlItem}>
-                      <div className={styles.clientItem}>
-                        <img
-                          src="https://anhdepfree.com/wp-content/uploads/2018/08/bo-hinh-nen-may-tinh-4k-cuc-dep-20.jpg"
-                          alt="4"
-                        />
-                      </div>
-                    </div>
-                    <div className={styles.owlItem}>
-                      <div className={styles.clientItem}>
-                        <img
-                          src="https://anhdepfree.com/wp-content/uploads/2018/08/bo-hinh-nen-may-tinh-4k-cuc-dep-20.jpg"
-                          alt="4"
-                        />
-                      </div>
-                    </div>
-                    <div className={styles.owlItem}>
-                      <div className={styles.clientItem}>
-                        <img
-                          src="https://anhdepfree.com/wp-content/uploads/2018/08/bo-hinh-nen-may-tinh-4k-cuc-dep-20.jpg"
-                          alt="4"
-                        />
-                      </div>
-                    </div>
+                    {
+                      dummydataHappyPartner.map((data) => (
+                        <div className={styles.owlItem}>
+                          <div className={styles.clientItem}>
+                            <img src={data.imgUrl} alt={data.alt} />
+                          </div>
+                        </div>
+
+                      ))
+                    }
                   </div>
                 </div>
               </div>

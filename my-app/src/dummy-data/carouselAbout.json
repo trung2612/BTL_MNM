@@ -2,29 +2,29 @@
     "about": [
         {
             "id": 1,
-            "src": "https://img5.thuthuatphanmem.vn/uploads/2021/08/25/hinh-nen-may-tinh-4k-anime_084703472.jpg",
+            "src": "https://vestnamdep.vn/wp-content/uploads/2020/05/gcs_full_5b4ca7de76ec577f1584e953-2018-07-16-141247.jpeg",
             "alt": "first slide",
             "caption": {
-                "title": "Last Minute",
-                "content": "Grab last minute deals"
+                "title": "Bộ sưu tập suit 2021",
+                "content": "Lịch lãm làm nên đẳng cấp phái mạnh"
             }
         },
         {
             "id": 2,
-            "src": "https://img5.thuthuatphanmem.vn/uploads/2021/08/25/hinh-nen-3d-cho-may-tinh-4k_084701936.jpg",
+            "src": "https://4sale.vn/wp-content/uploads/2021/04/phong-cach-thoi-trang-vintage-quay-lai-manh-me-trong-tinh-hinh-dich-benh-van-con-dang-dien-bien-phuc-tap-xu-huong-vintage-1.jpg",
             "alt": "second slide1",
             "caption": {
-                "title": "Best Offer",
-                "content": "New Arrivals On Sale"
+                "title": "Lựa chọn tốt nhất",
+                "content": "Miền bắc gió mùa về, mặc gì hôm nay?"
             }
         },
         {
             "id": 3,
-            "src": "https://wallpaperaccess.com/full/250472.jpg",
+            "src": "https://style-republik.com/wp-content/uploads/2020/04/hugoboss.jpg",
             "alt": "third slide",
             "caption": {
-                "title": "Last Minute",
-                "content": "Grab last minute deals"
+                "title": "Vintage style",
+                "content": "Phong cách thời trang cổ điển"
             }
         }
     ]
