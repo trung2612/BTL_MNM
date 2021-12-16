@@ -12,22 +12,22 @@ const SocialMedia = () => {
   return (
     <ul className={styles.iconSocial}>
       <li>
-        <Link to="/">
+        <Link to="/contact">
           <FontAwesomeIcon icon={faFacebookF} />
         </Link>
       </li>
       <li>
-        <Link to="/">
+        <Link to="/contact">
           <FontAwesomeIcon icon={faTwitter} />
         </Link>
       </li>
       <li>
-        <Link to="/">
+        <Link to="/contact">
           <FontAwesomeIcon icon={faTwitch} />
         </Link>
       </li>
       <li>
-        <Link to="/">
+        <Link to="/contact">
           <FontAwesomeIcon icon={faBehance} />
         </Link>
       </li>
