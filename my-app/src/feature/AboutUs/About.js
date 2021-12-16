@@ -64,10 +64,15 @@ const About = () => {
             {
               dummydatateamMember.map((data) => (
 
-                <Col className={commonStyle.col4}>
+                <Col className={commonStyle.col3}>
                   <div className={styles.teamMember}>
                     <div className={styles.thumbContainer}>
                       <img src= {data.imgUrl} alt={data.alt} />
+                      <div className={styles.hoverEffect}>
+                        <div className={styles.hoverContent}>
+                          <SocialMedia/>
+                        </div>
+                      </div>
                     </div>
                     <div className={styles.downContent}>
                       <h4>{data.name}</h4>
