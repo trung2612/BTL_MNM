@@ -1,114 +1,50 @@
 import React from "react";
-import anh1 from "../../assets/images/product_01.jpg";
-import anh2 from "../../assets/images/product_02.jpg";
-import anh3 from "../../assets/images/product_03.jpg";
-import anh4 from "../../assets/images/product_04.jpg";
-import anh5 from "../../assets/images/product_05.jpg";
-import anh6 from "../../assets/images/product_06.jpg";
 import { Container } from "react-bootstrap";
+import {Link, Outlet } from 'react-router-dom';
+import { useLocation } from "react-router-dom";
 import Row from "../../components/atoms/Row/Row";
 import Col from "../../components/atoms/Col/Col";
-import ProductItem from "../../components/molecules/ProductItem/ProductItem";
-import Banner from "../../components/molecules/Banner/Banner";
-import dummyCarouselProduct from "../../dummy-data/carouselProduct.json";
-import commonStyle from "../../styles/commonStyle.module.css";
 import StyleProducts from "./Products.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faChevronCircleRight } from "@fortawesome/free-solid-svg-icons";
+import { faAngleRight } from "@fortawesome/free-solid-svg-icons";
+import Banner from "../../components/molecules/Banner/Banner";
+import dummyCarouselListProduct from "../../dummy-data/carouselListProduct.json";
+
 
 const Products = () => {
+  const location = useLocation();
+  const { pathname } = location;
+  const splitLocation = pathname.split("/");
   return (
     <>
-      <Banner datas={dummyCarouselProduct.product} />
+      <Banner datas={dummyCarouselListProduct.listProduct} />
       <Container>
         <Row>
-          <Col>
-            <div className={StyleProducts.filters}>
-              <ul className={StyleProducts.ul}>
-                <li className={StyleProducts.active}>All Products</li>
-                <li>Featured</li>
-                <li>Flash Deals</li>
-                <li>Last Minute</li>
-              </ul>
-            </div>
-          </Col>
+              <Col>
+              <div className={StyleProducts.filters}>
+                <ul className={StyleProducts.ul}>
+                  <li className={splitLocation[1] === "" ? "active nav" : "nav"}><Link className="" to="/products"   >Áo Quần</Link></li>
+                  <li className={splitLocation[1] === "Products" ? "active nav" : "nav"}><Link className="" to="/products/vay" >Áo Len nè</Link></li>
+                  <li className={splitLocation[1] === "About" ? "active nav" : "nav"}><Link className="" to="/products/phukien" >Phụ Kiện</Link></li>
+                  <li className={splitLocation[1] === "Contact" ? "active nav" : "nav"}><Link className="" to="/products/khac" >Khác</Link></li>
+                </ul>
+              </div>  
+              </Col>       
         </Row>
         <Row>
-          <Col className={commonStyle.col4}>
-            <ProductItem
-              src={anh1}
-              title="Tittle goes here"
-              price="$30.25"
-              content="Lorem ipsume dolor sit amet, adipisicing elite. Itaque, corporis nulla aspernatur."
-            />
-          </Col>
-          <Col className={commonStyle.col4}>
-            <ProductItem
-              src={anh2}
-              title="Tittle goes here"
-              price="$30.25"
-              content="Lorem ipsume dolor sit amet, adipisicing elite. Itaque, corporis nulla aspernatur."
-            />
-          </Col>
-          <Col className={commonStyle.col4}>
-            <ProductItem
-              src={anh3}
-              title="Tittle goes here"
-              price="$30.25"
-              content="Lorem ipsume dolor sit amet, adipisicing elite. Itaque, corporis nulla aspernatur."
-            />
-          </Col>
-          <Col className={commonStyle.col4}>
-            <ProductItem
-              src={anh4}
-              title="Tittle goes here"
-              price="$30.25"
-              content="Lorem ipsume dolor sit amet, adipisicing elite. Itaque, corporis nulla aspernatur."
-            />
-          </Col>
-          <Col className={commonStyle.col4}>
-            <ProductItem
-              src={anh5}
-              title="Tittle goes here"
-              price="$30.25"
-              content="Lorem ipsume dolor sit amet, adipisicing elite. Itaque, corporis nulla aspernatur."
-            />
-          </Col>
-          <Col className={commonStyle.col4}>
-            <ProductItem
-              src={anh6}
-              title="Tittle goes here"
-              price="$30.25"
-              content="Lorem ipsume dolor sit amet, adipisicing elite. Itaque, corporis nulla aspernatur."
-            />
-          </Col>
+            <Outlet/>
         </Row>
         <Row>
           <Col>
-            <div className={StyleProducts.navigate}>
-              <ul className={StyleProducts.pages}>
-                <li>
-                  <div>1</div>
-                </li>
-                <li className={StyleProducts.active}>
-                  <div>2</div>
-                </li>
-                <li>
-                  <div>3</div>
-                </li>
-                <li>
-                  <div>4</div>
-                </li>
-                <li>
-                  <div>
-                    <FontAwesomeIcon
-                      icon={faChevronCircleRight}
-                      color="#f33f3f"
-                    />
-                  </div>
-                </li>
-              </ul>
-            </div>
+              <div className={StyleProducts.navigate}>
+                <ul className={StyleProducts.pages}>
+                  <li className={StyleProducts.active}><div>1</div></li>
+                  <li><div>2</div></li>
+                  <li><div>3</div></li>
+                  <li><div>4</div></li>
+                  <li><div><FontAwesomeIcon icon={faAngleRight} color="#121212" /></div></li>
+                </ul>
+              </div>
           </Col>
         </Row>
       </Container>
@@ -116,4 +52,6 @@ const Products = () => {
   );
 };
 
+
 export default Products;
+
