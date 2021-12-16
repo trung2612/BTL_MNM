@@ -2,29 +2,29 @@
   "contact": [
     {
       "id": 1,
-      "src": "https://img5.thuthuatphanmem.vn/uploads/2021/08/25/hinh-nen-may-tinh-4k-anime_084703472.jpg",
+      "src": "https://theme.hstatic.net/1000333436/1000696015/14/slideshow_1.jpg?v=631",
       "alt": "first slide",
       "caption": {
-        "title": "Last Minute",
-        "content": "Grab last minute deals"
+        "title": "HT Store",
+        "content": "Thời trang tạo nên thương hiệu"
       }
     },
     {
       "id": 2,
-      "src": "https://img5.thuthuatphanmem.vn/uploads/2021/08/25/hinh-nen-3d-cho-may-tinh-4k_084701936.jpg",
+      "src": "https://bizweb.dktcdn.net/100/305/277/themes/756519/assets/banner1.jpg?1633151213550",
       "alt": "second slide1",
       "caption": {
-        "title": "Best Offer",
-        "content": "New Arrivals On Sale"
+        "title": "Noel",
+        "content": "Sale sập sàn"
       }
     },
     {
       "id": 3,
-      "src": "https://wallpaperaccess.com/full/250472.jpg",
+      "src": "https://dezi.vn/wp-content/uploads/2020/11/banner-web-manh-truong01.png",
       "alt": "third slide",
       "caption": {
-        "title": "Last Minute",
-        "content": "Grab last minute deals"
+        "title": "HT Store",
+        "content": "Phong cách trẻ trung, năng động"
       }
     }
   ]
