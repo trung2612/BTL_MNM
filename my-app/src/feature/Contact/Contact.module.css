@@ -111,6 +111,11 @@
 	margin-bottom: 40px;
 }
 
+.happyClients img{
+	height: 190px;
+	object-fit: cover;
+}
+
  .clientItem  {
 	max-width: 100%;
 	overflow: hidden;
