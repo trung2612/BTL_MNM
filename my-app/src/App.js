@@ -6,10 +6,10 @@ import About from "./feature/AboutUs/About";
 import Contact from "./feature/Contact/Contact";
 import ProductDetail from "./feature/ProductDetail/ProductDetail";
 import ContentLayout from "./components/layouts/ContentLayout/ContentLayout";
-import AoQuan from "./components/Products/productchild/Aoquan";
-import Vay from "./components/Products/productchild/Vay";
-import PhuKien from "./components/Products/productchild/Phukien";
-import Khac from "./components/Products/productchild/Khac";
+import AoQuan from "./feature/Products/productchild/Aoquan";
+import Vay from "./feature/Products/productchild/Vay";
+import PhuKien from "./feature/Products/productchild/Phukien";
+import Khac from "./feature/Products/productchild/Khac";
 
 
 function App() {
