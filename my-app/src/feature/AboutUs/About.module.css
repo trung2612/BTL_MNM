@@ -226,3 +226,8 @@
   transition: all 0.3s;
   cursor: pointer;
 }
+
+.happyClients{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
