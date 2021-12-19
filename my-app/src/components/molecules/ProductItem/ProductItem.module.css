@@ -8,10 +8,11 @@
 .productItem img {
     height: 400px;
     object-fit: cover;
+    width: 100%;
 }
 
 .banner{
-    padding-left: 30px;
+    /* padding-left: 30px; */
     width: 318px;
 }
 

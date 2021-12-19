@@ -14,7 +14,7 @@ import dummyCarouselListProduct from "../../dummy-data/carouselListProduct.json"
 const Products = () => {
   const location = useLocation();
   const { pathname } = location;
-  const splitLocation = pathname.split("/");
+    const splitLocation = pathname.split("/products");
   return (
     <>
       <Banner datas={dummyCarouselListProduct.listProduct} />
@@ -23,10 +23,10 @@ const Products = () => {
               <Col>
               <div className={StyleProducts.filters}>
                 <ul className={StyleProducts.ul}>
-                  <li className={splitLocation[1] === "" ? "active nav" : "nav"}><Link className="" to="/products"   >Áo Quần</Link></li>
-                  <li className={splitLocation[1] === "Products" ? "active nav" : "nav"}><Link className="" to="/products/vay" >Áo Len nè</Link></li>
-                  <li className={splitLocation[1] === "About" ? "active nav" : "nav"}><Link className="" to="/products/phukien" >Phụ Kiện</Link></li>
-                  <li className={splitLocation[1] === "Contact" ? "active nav" : "nav"}><Link className="" to="/products/khac" >Khác</Link></li>
+                  <li className={splitLocation[1] === "" ? `${StyleProducts.active}` : ""}><Link className={StyleProducts.category} to="/products" >Áo Quần</Link></li>
+                  <li className={splitLocation[1] === "/vay" ? `${StyleProducts.active}` : ""}><Link className={StyleProducts.category} to="/products/vay" >Áo Len nè</Link></li>
+                  <li className={splitLocation[1] === "/phukien" ? `${StyleProducts.active}` : ""}><Link className={StyleProducts.category} to="/products/phukien" >Phụ Kiện</Link></li>
+                  <li className={splitLocation[1] === "/khac" ? `${StyleProducts.active}` : ""}><Link className={StyleProducts.category} to="/products/khac" >Khác</Link></li>
                 </ul>
               </div>  
               </Col>       

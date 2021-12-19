@@ -20,8 +20,7 @@ function AoQuan() {
                     review={data.review}
                   />
                 </Col>
-        ))}
-                                       
+        ))}                                      
       </>
     )
   }
