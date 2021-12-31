@@ -8,6 +8,10 @@ header {
     -moz-transition: all 0.3s ease-in-out 0s;
     -o-transition: all 0.3s ease-in-out 0s;
     transition: all 0.3s ease-in-out 0s;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
 }
 
 header .navbar {
