@@ -64,7 +64,7 @@ const About = () => {
             {
               dummydatateamMember.map((data) => (
 
-                <Col className={commonStyle.col4}>
+                <Col className={commonStyle.col3}>
                   <div className={styles.teamMember}>
                     <div className={styles.thumbContainer}>
                       <img src= {data.imgUrl} alt={data.alt} />
