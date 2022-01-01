@@ -24,7 +24,7 @@ const Products = () => {
               <div className={StyleProducts.filters}>
                 <ul className={StyleProducts.ul}>
                   <li className={splitLocation[1] === "" ? `${StyleProducts.active}` : ""}><Link className={StyleProducts.category} to="/products" >Áo Quần</Link></li>
-                  <li className={splitLocation[1] === "/vay" ? `${StyleProducts.active}` : ""}><Link className={StyleProducts.category} to="/products/vay" >Áo Len nè</Link></li>
+                  <li className={splitLocation[1] === "/vay" ? `${StyleProducts.active}` : ""}><Link className={StyleProducts.category} to="/products/vay" >Áo Len </Link></li>
                   <li className={splitLocation[1] === "/phukien" ? `${StyleProducts.active}` : ""}><Link className={StyleProducts.category} to="/products/phukien" >Phụ Kiện</Link></li>
                   <li className={splitLocation[1] === "/khac" ? `${StyleProducts.active}` : ""}><Link className={StyleProducts.category} to="/products/khac" >Khác</Link></li>
                 </ul>
